@@ -1,14 +1,14 @@
-# __Analise de dados exploratória e inferencial de pesquisa sobre saúde e estresse de trabalhadores de shopping__
+# __Análise de dados exploratória e inferencial de pesquisa sobre saúde e estresse de trabalhadores de shopping__
 
 # Ferramentas:
 
-  - Foi usado o Google Colab para a elaboração do notebook em Python. Além disso, com o objetivo de inferir questões sobre a população de trabalhadores de shopping a partir da amostragem da pesquisa, foram usadas 2 tipos de estatísticas inferenciais diferentes. 
+  - A análise foi conduzida por meio de um notebook em Python, elaborado no Google Colab. Com o objetivo de realizar inferências sobre a população de trabalhadores de shopping a partir da amostra obtida na pesquisa, foram utilizadas duas técnicas de estatística inferencial.
+
+  - Para embasar a escolha desses testes não paramétricos, foi realizado, previamente, o teste de Shapiro-Wilk, que verifica a normalidade dos dados. Como os dados analisados não apresentaram distribuição normal, optou-se pelo uso de métodos não paramétricos.
   
-  - A primeira delas é o teste de Mann-Whitney, um teste não-parametrizado, que busca (objetivo do teste). 
+  - A primeira técnica aplicada foi o teste de Mann-Whitney U, um teste não paramétrico que busca verificar se há diferenças estatisticamente significativas entre dois grupos independentes.
   
-  - A segunda é o teste de Kruskal-Willies, outro teste não-parametrizado que, por sua vez, busca (objetivo do teste). 
-  
-  - Não obstante, para decidir a escolha dos testes, foi aplicado o teste Shapiro-Wilk, que objetiva a definição de natureza dos dados (parametrizados ou não).
+  - A segunda técnica utilizada foi o teste de Kruskal-Wallis, uma extensão do teste de Mann-Whitney para mais de dois grupos. Este teste avalia se existem diferenças significativas nas medianas de três ou mais grupos independentes.
 
   - Por fim, os parâmetros de comparação escolhidos foram o estresse e a frequência de cuidados com a saúde dos trabalhadores.
   
